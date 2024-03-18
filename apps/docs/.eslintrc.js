@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: ["@acme/eslint-config/next.js"],
+  extends: ["@mimitn/eslint-config/next.js"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     project: true,

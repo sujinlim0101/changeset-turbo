@@ -4,12 +4,12 @@ importers:
 
   .:
     devDependencies:
-      '@acme/eslint-config':
-        specifier: workspace:*
-        version: link:packages/eslint-config
       '@changesets/cli':
         specifier: ^2.27.1
         version: 2.27.1
+      '@mimitn/eslint-config':
+        specifier: workspace:*
+        version: link:packages/eslint-config
       eslint:
         specifier: ^8.57.0
         version: 8.57.0
@@ -22,10 +22,10 @@ importers:
 
   apps/docs:
     dependencies:
-      '@acme/core':
+      '@mimitn/core':
         specifier: workspace:*
         version: link:../../packages/acme-core
-      '@acme/utils':
+      '@mimitn/utils':
         specifier: workspace:*
         version: link:../../packages/acme-utils
       next:
@@ -38,10 +38,10 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
     devDependencies:
-      '@acme/eslint-config':
+      '@mimitn/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint-config
-      '@acme/tsconfig':
+      '@mimitn/tsconfig':
         specifier: workspace:*
         version: link:../../packages/acme-tsconfig
       '@types/node':
@@ -59,10 +59,10 @@ importers:
 
   packages/acme-core:
     devDependencies:
-      '@acme/eslint-config':
+      '@mimitn/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@acme/tsconfig':
+      '@mimitn/tsconfig':
         specifier: workspace:*
         version: link:../acme-tsconfig
       '@types/react':
@@ -88,10 +88,10 @@ importers:
 
   packages/acme-utils:
     devDependencies:
-      '@acme/eslint-config':
+      '@mimitn/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@acme/tsconfig':
+      '@mimitn/tsconfig':
         specifier: workspace:*
         version: link:../acme-tsconfig
       '@types/react':
