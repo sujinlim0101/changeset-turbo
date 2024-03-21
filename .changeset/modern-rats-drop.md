@@ -1,0 +1,5 @@
+---
+"@mimitn/tsconfig": minor
+---
+
+test
