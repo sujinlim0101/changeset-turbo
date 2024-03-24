@@ -38,4 +38,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
 
       - name: Echo Output
-        run: echo "${{ steps.changesets.outputs }}"
+        run: echo "${{ steps.changesets.outputs.changeset }} ${{ steps.changesets.outputs.publishedPackages }}"
